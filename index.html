@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dairy | HELI Healthy Groceries</title>
+</head>
+<body>
+    <div>    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo2.png" width="100px" height="60px" alt="">
+            </a>
+            <button class="navbar-toggler" id="nine" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              </ul>
+              <span class="navbar-text">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                    <li class="nav-item">
+                      <a class="nav-link active" id="nine" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="nine" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="../Vegetables/index.html">Vegetables</a></li>
+                          <li><a class="dropdown-item" href="../fruits/index.html">fruits</a></li>
+                          <li><a class="dropdown-item" href="../meet/index.html">meat</a></li>
+                          <li><a class="dropdown-item" href="">Dairy</a></li>
+                          <li><a class="dropdown-item" href="../bakery/index.html">bakery</a></li>
+                          <li><a class="dropdown-item" href="../beverages/index.html">beverages</a></li>
+                        </ul>
+                      </li>
+                      &nbsp; &nbsp; &nbsp; &nbsp; 
+                      <a href="../login/index.html"><button class="hyder"> Log In/Sign Up</button> </a>
+                  </ul>
+              </span>
+            </div>
+          </div>
+          <form class="form-inline">
+            <a class="navbar-brand" href="#">
+              <i class="fa fa-shopping-basket" aria-hidden="true"></i>Shopping Cart
+          </a>
+            </form>
+        </nav>
+        <div class="veg">
+        <div class="heading">
+            <h2>Dairy</h2>
+            <br><br>
+        </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/adam's  namkeen lassi 225ml.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Adam's  Namkeen Lassi (225ml)</h5>
+                          <p class="card-text">Rs. 50</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/blue band 500gm.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Blue Band <br> (500gm)</h5>
+                          <p class="card-text">Rs. 300</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/cottage mango fruit yogurt 100gm.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cottage Mango Yogurt (100gm)</h5>
+                          <p class="card-text">Rs. 60</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/cottage raita chatt patta zeera 250gm.png"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Cottage Zeera Raita (250gm)</h5>
+                          <p class="card-text">Rs. 100</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+    
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/dairy cream 200ml.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Dairy Cream <br> (200ml)</h5>
+                          <p class="card-text">Rs. 150</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/egg white half dozen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Egg White Half <br> Dozen</h5>
+                          <p class="card-text">Rs. 110</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/full creamy milk powder 900gm.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Olpers Milk Powder (900gm)</h5>
+                          <p class="card-text">Rs. 260</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/nawar margarine 500gm.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nawar Margarine <br> (500gm)</h5>
+                          <p class="card-text">Rs. 180</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/nestle fruit yogurt strawberry 80gm.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nestle Yogurt Strawberry (80gm)</h5>
+                          <p class="card-text">Rs. 100</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link"onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/nestle nesvita move+ 1L.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nestle Nesvita Move+ &nbsp; &nbsp;   (1L)</h5>
+                          <p class="card-text">Rs. 200</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/olpers choclate milk flavour 180ml.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Olpers Choclate Milk (180ml)</h5>
+                          <p class="card-text">Rs. 220</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-6 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="images/olpers milk 1.5L.jpg"  class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Olpers Milk <br> (1.5L)</h5>
+                          <p class="card-text">Rs. 310</p>
+                          <ul class="pagination justify-content-end set_quantity">
+                            <li class="page-item">
+                              <button class="page-link" onclick="decreaseNumber()"><i class="fa fa-minus" aria-hidden="true"></i>
+                              </button>
+                            </li>
+                            <li class="page-item"><input type="text " name="" 
+                             class="page-link" value="1"id="textbox"></li>
+                             <li>
+                              <button class="page-link" onclick="increaseNumber()"><i class="fa fa-plus" aria-hidden="true"></i>
+                              </i>
+                              </button>
+                            </li>
+                         </ul>
+                          <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div> 
+
+          <br><br>
+          <div class="footer">
+            <h4>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> HELI Healthy Groceries</h4>
+          </div>
+    
+      </div>
+    
+    
+                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+</body>
+</html>
